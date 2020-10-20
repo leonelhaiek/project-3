@@ -1,0 +1,146 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.hdr1{
+    background-image: url('../images/hn.jpg');
+    color: seashell;
+    margin-top: 0px;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: black 2px solid;
+    
+}
+
+.a1{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.ul1{
+    margin: 0;
+    padding: 0;
+}
+
+.li1{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.hn{
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hnh{
+    display: block;
+    margin: 0;
+margin-left: 250px;
+}
+
+.nav1{
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+#sec1{
+    max-height: 100%;
+    background-image: url('../images/108.jpg ' )   ;
+    text-align:center;
+    color:#ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#sec2{
+    margin-top:300px;
+    font-size:55px;
+    margin-bottom:10px;
+
+}
+#sec3{
+    font-size:20px;
+
+}
+
+#subs{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a
+  }
+
+.sbh1{
+    float: left;
+ }
+
+.sbfm{
+    float: right;
+    margin-top: 15px;
+}
+
+.boxes{
+    margin-top: 20px;
+}
+.box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: left;
+      
+}
+.box img{
+    width: 100%;
+
+}
+
+.fo{
+    padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#35424a;
+  text-align: center;
+}
+
+@media(max-width: 768px){
+    .hn,.nav1,.li1,.sbh1,.sbfm,.box{
+        float:none;
+        text-align:left;
+        width:100%;
+    }
+    .hdr1{
+        padding-bottom:20px;
+      }
+ 
+  #subs button, .quote button{
+    display:block;
+    width:100%;
+  }
+  #sec2{
+      margin-top: 100px;
+  }
+  #subs form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+  .hnh{
+      margin-left: 15px;
+  }
+  
+}
