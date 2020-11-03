@@ -13,7 +13,7 @@ body{
 }
 
 .hdr1{
-    background-image: url('./images/hn.jpg');
+    background-image: url('../images/hn.jpg');
     color: seashell; 
     margin-top: 0px;
     padding-top: 30px;
