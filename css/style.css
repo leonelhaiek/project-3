@@ -49,7 +49,7 @@ body{
 .hnh{
     display: block;
     margin: 0;
-margin-left: 250px;
+    margin-left: 250px;
 }
 
 .nav1{
@@ -116,6 +116,10 @@ margin-left: 250px;
   color:#ffffff;
   background-color:#35424a;
   text-align: center;
+}
+.ap{
+    color: blanchedalmond;
+    text-decoration: none;
 }
 
 @media(max-width: 768px){
